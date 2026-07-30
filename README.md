@@ -27,7 +27,13 @@ manually digging through logs during an incident.
 
 ## Project status
 
-🚧 In progress — built incrementally over a 6-week internship.
+🚧 In progress — Week 2 complete (ML anomaly detection).
+
+- ✅ Sample Flask app deployed on EC2, containerized with Docker
+- ✅ Isolation Forest anomaly detection tested on real CloudWatch data
+- ✅ Identified and solved a real limitation (point-based detection missing sustained issues) by adding a rolling-average check
+- ✅ Wrapped detection logic into a FastAPI endpoint (`/check-anomaly`)
+- ⏳ Next: LLM-based reasoning layer (Claude API) to explain anomalies in plain English
 
 ## Architecture
 
